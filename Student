@@ -1,0 +1,25 @@
+public class Student {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter marks: 50 ");
+        int marks = scanner.nextInt();
+
+         char grade;
+        
+        if (marks >= 80) {
+            grade = 'Outstanding Achievement';
+        } else if (marks >= 70 ) {
+            grade = 'meritorious achievement';
+        } else if (marks >= 60) {
+            grade = 'substantial achievement';
+        } else if (marks >= 50) {
+            grade = 'adequate achievement';
+        } else if (marks >= 40) { 
+            grade = 'moderate achievement';
+        } else if (marks >= 30) {
+            grade = 'elementary achievement';
+        } else {
+            grade = 'not achieved';
+            
+        } 
